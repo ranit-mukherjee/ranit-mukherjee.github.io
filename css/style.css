@@ -832,6 +832,9 @@ $res-cl:#F7007E;
 .model-4 .flickr {
   color: #F7007E;
 }
+.model-4 .scholar {
+  color: #357DF3;
+}
 
 
 .model-8 a {
@@ -930,7 +933,7 @@ ul.footer-grid-list li a{
 ul.footer-grid-list li a:hover{
 	color:#fff;
 }
-ul.footer-grid-list li span{	
+ul.footer-grid-list li span{
 	display:block;
 	color:#fff;
 	margin:.5em 0 0;
@@ -978,7 +981,7 @@ ul.footer-grid-list li span{
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1219,7 +1222,7 @@ li.list-group-item1 {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1562,7 +1565,7 @@ ul.phone-mail {
 .single-grid-left-grid1-left{
 	float:left;
 }
-.single-grid-left-grid1-left h3{ 
+.single-grid-left-grid1-left h3{
 	font-size:1em;
 	color:#212121;
 	text-transform:uppercase;
