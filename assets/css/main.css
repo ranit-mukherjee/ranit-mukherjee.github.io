@@ -2632,5 +2632,47 @@ input, select, textarea {
 
 	}
 
-
+/* Continuous Research Stories Section */
+.story-card__content {
+	padding: 2rem 0;
+  }
+  
+  .stories-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem; /* space between stories */
+  }
+  
+  .story-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: flex-start;
+  }
+  
+  .story-text, .story-media {
+	flex: 1 1 50%;
+  }
+  
+  .story-text p {
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 1.6;
+  }
+  
+  .story-media img,
+  .story-media video {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	display: block;
+  }
+  
+  /* Responsive stacking for small screens */
+  @media (max-width: 768px) {
+	.story-text, .story-media {
+	  flex: 1 1 100%;
+	}
+  }
+  
   
